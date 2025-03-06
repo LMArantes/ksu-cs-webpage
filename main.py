@@ -7,10 +7,9 @@ topics = st.Page("pages/home/topics.py", title="Topics")
 calendar = st.Page("pages/home/calendar.py", title="Calendar")
 
 # Student Assets
-requirements = st.Page("pages/assets/requirements.py", title="Requirements")
+requirements = st.Page("pages/assets/requirements.py", title="General Program Requirements")
 resources = st.Page("pages/assets/resources.py", title="Resources")
 svn = st.Page("pages/assets/svn.py", title="Servers and Submission")
-grading = st.Page("pages/assets/grading.py", title="General Program Requirements")
 
 # Projects Page
 project_1 = st.Page("pages/projects/project_1.py", title="Project 1")
@@ -19,8 +18,9 @@ project_3 = st.Page("pages/projects/project_3.py", title="Project 3")
 project_4 = st.Page("pages/projects/project_4.py", title="Project 4")
 
 # Labs Page
-labs = st.Page("pages/labs/csii_labs.py", title="Computer Science II Lab")
+labs = st.Page("pages/labs/csii_labs.py", title="CSII Labs")
 policy = st.Page("pages/labs/policy.py", title="Labs Policy")
+account = st.Page("pages/labs/account_setup.py", title="Account")
 lab_1 = st.Page("pages/labs/lab_1.py", title="Lab 1")
 lab_2 = st.Page("pages/labs/lab_2.py", title="Lab 2")
 lab_3 = st.Page("pages/labs/lab_3.py", title="Lab 3")
@@ -41,7 +41,7 @@ pg = st.navigation(
         "Home": [csii, syllabus, topics, calendar],
         "Assets": [requirements, resources, svn],
         "Projects": [project_1, project_2, project_3, project_4],
-        "Labs": [labs, policy, lab_1, lab_2, lab_3, lab_4, lab_5, lab_6, lab_7, lab_8, lab_9, lab_10, lab_11, lab_12, lab_13]
+        "Labs": [labs, policy, account, lab_1, lab_2, lab_3, lab_4, lab_5, lab_6, lab_7, lab_8, lab_9, lab_10, lab_11, lab_12, lab_13]
     }
 )
 
